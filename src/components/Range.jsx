@@ -2,7 +2,7 @@ import React from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Dining from "../assets/Dining.png";
-import Living from "../assets/Living.png";
+import Living from "../assets/living.png";
 import Bedroom from "../assets/Bedroom.png";
 
 const BrowseRange = () => {
