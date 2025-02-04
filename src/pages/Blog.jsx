@@ -3,7 +3,7 @@ import blog1 from "../assets/blog1.png";
 import blog2 from "../assets/blog2.png";
 import blog3 from "../assets/blog3.png";
 import Navbar from "../components/Navbar";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/Logo.png";
 import Logo1 from "../assets/shback1.png";
 import Footer from "../components/Footer";
 

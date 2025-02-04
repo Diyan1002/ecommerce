@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaStar } from "react-icons/fa";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/Logo.png";
 import Logo1 from "../assets/shback1.png";
 import pc1 from "../assets/pc1.png";
 import pc2 from "../assets/pc2.png";

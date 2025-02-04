@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/Logo.png";
 import Logo1 from "../assets/shback1.png"
 import Footer from "../components/Footer";
 
