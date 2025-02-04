@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer'; 
-import Logo from '../assets/logo.png';
+import Logo from '../assets/Logo.png';
 import UserIcon from '../assets/Me.png';
 import SearchIcon from '../assets/Search.png';
 import HeartIcon from '../assets/Heart.png';
