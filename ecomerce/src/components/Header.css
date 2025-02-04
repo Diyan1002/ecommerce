@@ -1,0 +1,106 @@
+/* General container */
+.furniro-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    position: relative;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%; /* Full-width header */
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Fix header to the top */
+    top: 0;
+    z-index: 1000; /* Ensure it appears above other elements */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(2, 2, 2);
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    cursor: pointer;
+    color: rgb(5, 5, 5);
+  }
+  
+  .icons span {
+    margin-left: 15px;
+    cursor: pointer;
+    color: rgb(5, 5, 5);
+  }
+  
+  /* Main Content Section */
+  .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Adjust height as needed */
+    position: relative;
+    margin-top: 70px; /* Push the content below the fixed header */
+  }
+  
+  .background-image img {
+    width: 100%;
+    height: 100%; /* Make the image cover the entire container */
+    object-fit: cover;
+  }
+  
+  /* Text Overlay */
+  .text-area {
+    position: absolute;
+    right: 10%;
+    background-color: #fff8e1; /* Light yellow background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+  
+  .text-area h2 {
+    color: #999;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .text-area h1 {
+    color: #333;
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  .text-area p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .buy-now-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: gold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .buy-now-btn:hover {
+    background-color: #d4af37;
+  }
+  
