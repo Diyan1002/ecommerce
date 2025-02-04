@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/Logo.png';
 import UserIcon from '../assets/Me.png';
 import SearchIcon from '../assets/Search.png';
 import HeartIcon from '../assets/Heart.png';
