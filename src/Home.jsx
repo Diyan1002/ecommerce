@@ -7,6 +7,7 @@ import Explore from './components/Explore'
 import Furniture from './components/Furniture'
 import Footer from './components/Footer'
 import Chatbot from './components/Chatbot'
+import Scrolltotop from './components/Scrolltotop'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Furniture />
       <Footer />
       <Chatbot />
+      <Scrolltotop />
     </div>
   )
 }
